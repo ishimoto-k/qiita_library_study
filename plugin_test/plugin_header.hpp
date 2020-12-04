@@ -1,7 +1,3 @@
-//
-// Created by IshimotoKiko on 2020/11/30.
-//
-
 #ifndef PLAGUIN_TEST_PLUGIN_HEADER_HPP
 #define PLAGUIN_TEST_PLUGIN_HEADER_HPP
 

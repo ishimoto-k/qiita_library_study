@@ -1,6 +1,4 @@
-//
-// Created by IshimotoKiko on 2020/11/30.
-//
+
 #include <iostream>
 #include <memory>
 #include "plugin_header.hpp"
@@ -23,5 +21,5 @@ public:
   }
 };
 extern "C" unique_ptr<PluginInterface> Create() {
-  return unique_ptr<PluginInterface>(new Add);
+  return std::unique_ptr<PluginInterface>(new Add);
 }
